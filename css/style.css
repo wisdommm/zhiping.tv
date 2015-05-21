@@ -1,0 +1,120 @@
+body {
+  font-family: "Microsoft YaHei", "微软雅黑", "黑体";
+}
+
+/* header */
+.header {
+  position: fixed;
+  top:      50px;
+  left:     0;
+  width:    100%;
+  z-index:  1;
+  opacity:  0;
+  filter: alpha(opacity=0)\9;
+}
+.header-content {
+  padding-left:   3%;
+  padding-right:  3%;
+}
+.header img {
+  background: transparent\9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"\9; /* IE8 */   
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)\9;   /* IE6 & 7 */      
+  zoom: 1\9;
+}
+.logo {
+  float: left;
+}
+.contact {
+  float:  right;
+}
+
+/* footer for mobile*/
+.footer-mobile {
+  height:         40px;
+  padding-left:   20px;
+  padding-right:  20px;
+  margin-top:     40px;
+  margin-bottom:  20px;
+}
+
+/* section basic */
+.section {
+  position: relative;
+}
+.page-index {
+  height:  100%;
+  display: table;
+}
+.page {
+  background-color: #ffffff;
+  height:     100%;
+  display:    table;
+}
+.center-content {
+  display:        table-cell;
+  vertical-align: middle;
+  text-align:     center;
+}
+
+/* section 1 */
+.wrapper {
+  background: url(../images/section-1-background.png) #eb3b0b fixed no-repeat center;
+}
+.section-1-title {
+  max-width:  640px\9;
+  max-height: 180px\9;  
+  padding: 0\9;
+  margin-top: 0\9;
+  margin-bottom: 0\9;
+}
+
+/* section: 3 (chart) */
+.section-chart-title-img {
+  width: 30%\9;
+  max-width:  640px\9;
+  max-height: 120px\9;
+  padding: 0\9;
+  margin-top: 0\9;
+  margin-bottom: 0\9;
+}
+.section-chart-img {
+  margin-top: 30px;
+  width: 60%\9;
+  padding: 0\9;
+  margin-top: 30px\9;
+  margin-bottom: 0\9;
+}
+/* Firefox only. 1+ */
+.section-chart-img,  x:-moz-any-link  { width: 60%\9; }
+ 
+/* Firefox 3.0+ */
+.section-chart-img,  x:-moz-any-link, x:default  { width: 60%\9;  }
+
+/* other section */
+.section-title-img {
+  width: 30%\9;
+  max-width:  640px\9;
+  max-height: 120px\9;
+  padding: 0\9;
+  margin-top: 0\9;
+  margin-bottom: 0\9;
+}
+.info-img {
+  margin-top: 20%;
+  padding: 0\9;
+  max-width:  240px\9;
+  max-height: 240px\9;
+  margin-top: 30px\9;
+  margin-bottom: 0\9;
+}
+.info-img-title {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size:  28px;
+  color:      #000000;
+}
+.info-img-detail {
+  font-size: 16px;
+  color:     #888888;
+}
